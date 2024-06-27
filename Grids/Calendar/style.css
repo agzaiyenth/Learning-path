@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 .container{
+    
     padding: 5px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 2px;
     margin: 50px;
     display: grid;
     
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(7,minmax(50px,1fr));
     grid-template-rows: repeat(5,1fr);
     gap: 5px;
+    max-width: 1fr;
+    min-width:400px ;
 }
 
 .days{             
@@ -48,4 +51,8 @@
 }
 .month:hover{
     background-color: rgb(255, 255, 255);
+}
+.one{
+    grid-row:6;
+    grid-column:4;
 }
