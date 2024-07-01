@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+}
+.card{
+    border: 1px solid black;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    margin: 15px;
+}
+h3{
+    font-size: 1.5rem;
+}
+.card hr{
+    width: 80%;
+    color: rgb(210, 210, 202);
+    margin: 10px;
+}
+p{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h4{
+    font-size: 1.3rem;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 720px){
+    .container{
+        flex-direction: column;
+    }
+}
