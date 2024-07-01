@@ -25,3 +25,15 @@ main{
 
 
 }
+
+
+
+
+@media screen and (min-width : 756px){
+
+    main{
+        background-color: rgb(16, 134, 16);
+    }
+
+
+}
